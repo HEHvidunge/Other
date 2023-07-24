@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+	user-select: none;
+	/* Sidans text kan inte markeras och därmed inte dras */
+}
+
+html,
+body,
+nav,
+header,
+main,
+aside,
+footer,
+article,
+section,
+div {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: cadetblue;
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: grid;
+	grid-template-columns: auto minmax(100px, 800px) auto;
+	grid-template-rows: min-content auto min-content;
+	grid-template-areas:
+		".	    header	."
+		".	    main	."
+		"footer	footer	footer";
+}
+
+header {
+	grid-area: header;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 110%;
+}
+
+main {
+background-color: bisque;
+	grid-area: main;
+	padding: 10px;
+	
+
+}
+
+footer {
+	grid-area: footer;
+
+	font-size: 80%;
+	text-align: center;
+
+}
+
+footer ul {
+	list-style: none;
+	display: inline-block;
+	flex-direction: row;
+
+}
+section{
+	display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+#intro{
+    font-style: italic;
+    margin: 30px;
+}
+#note{
+    font-style: italic;
+margin-left: 40px;
+font-size:80%;
+}
