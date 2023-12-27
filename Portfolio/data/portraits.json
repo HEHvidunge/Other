@@ -1,0 +1,26 @@
+{    "category": "portraits",
+        "photo": [
+        {
+            "url": "img/portraits/portrait1.png",
+            "description": "Portrait"
+        },
+        {
+            "url": "img/portraits/portrait2.png",
+            "description": "Portrait"
+        },
+        {
+            "url": "img/portraits/portrait3.png",
+            "description": "Portrait"
+        },
+        {
+            "url": "img/portraits/portrait4.png",
+            "description": "Portrait"
+        },
+        {
+            "url": "img/portraits/portrait5.png",
+            "description": "Portrait"
+        }
+        
+  
+    ]
+}

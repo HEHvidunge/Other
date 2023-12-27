@@ -1,0 +1,45 @@
+{    "category": "landscapes",
+        "photo": [
+        {
+            "url": "img/landscapes/landscape1.png",
+            "description": "Hus vid flod"
+        },
+        {
+            "url": "img/landscapes/landscape2.png",
+            "description": "Hus vid flod"
+        },
+        {
+            "url": "img/landscapes/landscape3.png",
+            "description": "Hus vid flod"
+        },
+        {
+            "url": "img/landscapes/landscape4.png",
+            "description": "Hus vid flod"
+        },
+        {
+            "url": "img/landscapes/landscape5.png",
+            "description": "Hus vid strand"
+        },
+        {
+            "url": "img/landscapes/landscape6.png",
+            "description": "Hus vid strand"
+        },
+        {
+            "url": "img/landscapes/landscape7.png",
+            "description": "Badare vid strand"
+        },
+        {
+            "url": "img/landscapes/landscape8.png",
+            "description": "Badare vid flod"
+        },
+        {
+            "url": "img/landscapes/landscape9.png",
+            "description": "Vinodling"
+        },
+        {
+            "url": "img/landscapes/landscape10.png",
+            "description": "Vinodling"
+        }   
+  
+    ]
+}

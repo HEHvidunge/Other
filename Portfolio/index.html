@@ -3,40 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Photography Portfolio</title>
-  
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 
-    <header>
-      <h1>Photography Portfolio</h1>
-    </header>
-  
-    <nav>
-      <a href="#" onclick="showSection('about-me')">About Me</a>
-      <a href="#" onclick="loadGallery('landscapes')">Landscapes</a>
-      <a href="#" onclick="loadGallery('portraits')">Portraits</a>
-    </nav>
-  
-    <div id="about-me" class="active-section">
-      <h2>About Me</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde sint ea, perspiciatis quisquam voluptate hic accusamus. Et, molestiae dolorem. Maiores numquam possimus ut. Nemo, doloremque laudantium dolores animi adipisci sapiente?
-      </p>
-      
-    </div>
-  
-    <div id="gallery" class="gallery-container">
-      <!-- Gallery content will be loaded dynamically -->
-    </div>
-  
-    
-  
-    <button onclick="navigateGallery('prev')">Previous</button>
-    <button onclick="navigateGallery('next')">Next</button>
-  
-  </body>
-  </html>
-  
+  <header>
+    <h1>Photography Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#" id="aboutMeBtn">About Me</a>
+    <a href="#" id="landscapesBtn">Landscapes</a>
+    <a href="#" id="portraitsBtn">Portraits</a>
+  </nav>
+
+  <div id="aboutMeSection" class="active-section">
+    <h2>About Me</h2>
+    <p>Your introduction and information about yourself.</p>
+  </div>
+
+  <div id="gallerySection" class="gallery-container active-section">
+    <!-- Gallery content will be loaded dynamically -->
+  </div>
+
+  <button onclick="navigateGallery('prev')">Previous</button>
+  <button onclick="navigateGallery('next')">Next</button>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
+

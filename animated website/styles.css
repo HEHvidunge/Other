@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,900&display=swap');
+*{ 
+    transition: all 0.5s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    color: rgb(38,38,38);
+    font-weight: 200;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+a {
+    text-decoration: none;
+    
+} 
+.box{
+    padding: 10px;
+}
+.small-box{
+    min-height: 150px;
+    min-width: 250px;
+    flex-grow: 1;
+    background-color: red;
+}
+.long-box{
+    min-height: 150px;
+    min-width: 250px;
+    flex-grow: 4;
+    background-color: blue ;
+}
+.large-box{
+    min-height: 500px;
+    min-width: 410px;
+    flex-grow: 2;
+    background-color: green;
+}
+.pill{
+    height: 100%;
+    width: 100%;
+    border: solid 12px rgb (38,38,38);
+    box-sizing: border-box;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: stretch;
+
+}
+.slider-container{
+    min-height: 500px;
+    width: 150px;
+    
+}
+.input-container{
+    position: absolute;
+    bottom: 50px;
+    left: 102px;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    z-index: 2;
+}
+.slider-container input[type="range"]{
+    -webkit-appearance: none;
+    width: 420%;
+    height: 20px;
+    background-color: rgba(18,9,9,0.6);
+    border-radius: 5px;
+    
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255,255,255);
+    border: rgb(38,38,38) solid 14px;
+    border-radius: 50%;
+    cursor: grab;
+    z-index: 3;
+}
+    
+.hidden{
+    display: none;
+}
