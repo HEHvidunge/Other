@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#" class="nav-link" data-section="aboutMeSection">About Me</a>
+    <a href="#" class="nav-link" data-section="landscapesSection">Landscapes</a>
+    <a href="#" class="nav-link" data-section="portraitsSection">Portraits</a>
+    <!-- Add more sections as needed -->
+    <!-- <This code structure allows you to easily add new sections by following the same pattern in the HTML file and updating the JavaScript accordingly.
+ -->
+  </nav>
+
+  <div id="aboutMeSection" class="gallery-container active-section">
+    <!-- About Me content goes here -->
+  </div>
+
+  <div id="landscapesSection" class="gallery-container">
+    <!-- Landscapes images go here -->
+  </div>
+
+  <div id="portraitsSection" class="gallery-container">
+    <!-- Portraits images go here -->
+  </div>
+
+  <button onclick="navigateGallery('prev')">Previous</button>
+  <button onclick="navigateGallery('next')">Next</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
